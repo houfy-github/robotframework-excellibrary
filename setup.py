@@ -15,12 +15,14 @@
 #  limitations under the License.
 
 import sys
-from distutils.core import setup
+# from distutils.core import setup
+from setuptools import setup
 from os.path import join, dirname
 
 sys.path.append(join(dirname(__file__), 'ExcelLibrary'))
 
-execfile(join(dirname(__file__), 'ExcelLibrary', 'version.py'))
+# execfile(join(dirname(__file__), 'ExcelLibrary', 'version.py'))
+exec(open(join(dirname(__file__), 'ExcelLibrary', 'version.py')).read())
 
 DESCRIPTION = """
 This test library provides some keywords to allow
