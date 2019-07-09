@@ -30,13 +30,13 @@ opening, reading, writing, and saving Excel files
 from Robot Framework.
 """[1:-1]
 
-setup(name              = 'robotframework-excellibrary',
+setup(name              = 'robotframework-excellibrary-xwfintech',
       version           = VERSION,
-      description       = 'Robot Framework',
+      description       = 'Robot Framework-xwfintech',
       long_description  = DESCRIPTION,
-      author            = 'jyrkiwahlstedt, Simon McMorran',
+      author            = 'jyrkiwahlstedt, Simon McMorran, Bryan Hou',
       author_email      = '<smcmorran@navinet.net>',
-      url               = 'https://github.com/NaviNet/robotframework-excellibrary',
+      url               = 'https://github.com/houfy-github/robotframework-excellibrary.git',
       license           = 'Apache License 2.0',
       keywords          = 'robotframework testing testautomation excel',
       platforms         = 'any',
